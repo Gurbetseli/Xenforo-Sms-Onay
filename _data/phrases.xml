@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<phrases>
+  <phrase title="option.gurbetseli_sms_api" version_id="2000035" version_string="2.0.0 Beta 5"><![CDATA[SMS sağlayıcısı seçimi]]></phrase>
+  <phrase title="option.gurbetseli_sms_limit_conversation" version_id="2000032" version_string="2.0.0 Beta 2"><![CDATA[Kişisel konuşma kullanımını sınırla]]></phrase>
+  <phrase title="option.gurbetseli_sms_limit_createthread" version_id="2000032" version_string="2.0.0 Beta 2"><![CDATA[Yeni konu açmayı sınırla]]></phrase>
+  <phrase title="option.gurbetseli_sms_limit_replythread" version_id="2000032" version_string="2.0.0 Beta 2"><![CDATA[Konulara yanıt vermeyi sınırla]]></phrase>
+  <phrase title="option.gurbetseli_sms_limit_replythread_forums" version_id="2000032" version_string="2.0.0 Beta 2"><![CDATA[Yeni konu ve yanıt kısıtlamasının uygulanacağı forumları seçin]]></phrase>
+  <phrase title="option.gurbetseli_sms_limit_signature" version_id="2000032" version_string="2.0.0 Beta 2"><![CDATA[İmza kullanmayı/düzenlemeyi sınırla]]></phrase>
+  <phrase title="option.gurbetseli_sms_smsinterval" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[Kullanıcı başına SMS gönderim aralığı (saat)]]></phrase>
+  <phrase title="option.gurbetseli_sms_usergroup" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[SMS ile doğrulanan kullanıcı grubu]]></phrase>
+  <phrase title="option_explain.gurbetseli_sms_api" version_id="2000035" version_string="2.0.0 Beta 5"><![CDATA[Lütfen SMS sağlayıcısı bilgilerinizi girin.]]></phrase>
+  <phrase title="option_explain.gurbetseli_sms_limit_conversation" version_id="2000032" version_string="2.0.0 Beta 2"><![CDATA[Telefonu doğrulanmamış üyelerin kişisel konuşma işlemlerini sınırlar.]]></phrase>
+  <phrase title="option_explain.gurbetseli_sms_limit_createthread" version_id="2000032" version_string="2.0.0 Beta 2"><![CDATA[Telefonu doğrulanmamış üyelerin yeni konu açmasını sınırlar.]]></phrase>
+  <phrase title="option_explain.gurbetseli_sms_limit_replythread" version_id="2000032" version_string="2.0.0 Beta 2"><![CDATA[Telefonu doğrulanmamış üyelerin konuya yanıt yazmasını sınırlar.]]></phrase>
+  <phrase title="option_explain.gurbetseli_sms_limit_replythread_forums" version_id="2000032" version_string="2.0.0 Beta 2"><![CDATA[Yeni konu açma veya konuya yanıt verme kısıtlaması etkinse, kısıtlamanın uygulanacağı forumları seçin. Hiç forum seçmezseniz tüm forumlarda uygulanır.]]></phrase>
+  <phrase title="option_explain.gurbetseli_sms_limit_signature" version_id="2000032" version_string="2.0.0 Beta 2"><![CDATA[Telefonu doğrulanmamış üyelerin imzalarını kullanmasını veya düzenlemesini sınırlar.]]></phrase>
+  <phrase title="option_explain.gurbetseli_sms_smsinterval" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[Bu ayar, kullanıcının son SMS gönderim zamanını kontrol eder ve belirtilen saat dolmadan yeni kod istemesini engeller.]]></phrase>
+  <phrase title="option_explain.gurbetseli_sms_usergroup" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[Doğrulanan üyeler bu gruba ikincil kullanıcı grubu olarak eklenir. Üye bu grubun birincil veya ikincil üyesiyse SMS doğrulama sayfasını kullanması gerekmez.]]></phrase>
+  <phrase title="option_group.gurbetseli_sms" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[Gurbetseli SMS doğrulama]]></phrase>
+  <phrase title="option_group_description.gurbetseli_sms" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[SMS ile telefon doğrulama ayarları.]]></phrase>
+  <phrase title="gurbetseli_sms_already_verified" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[Telefon numaranızı zaten doğruladınız.]]></phrase>
+  <phrase title="gurbetseli_sms_api_chooser_options" version_id="2000070" version_string="2.0.0"><![CDATA[SMS sağlayıcısı ayarları]]></phrase>
+  <phrase title="gurbetseli_sms_api_masgsm" version_id="2000070" version_string="2.0.0"><![CDATA[MasGSM]]></phrase>
+  <phrase title="gurbetseli_sms_api_masgsm_cname" version_id="2000070" version_string="2.0.0"><![CDATA[API kullanıcı adı]]></phrase>
+  <phrase title="gurbetseli_sms_api_masgsm_cpass" version_id="2000070" version_string="2.0.0"><![CDATA[API secret]]></phrase>
+  <phrase title="gurbetseli_sms_api_masgsm_sname" version_id="2000070" version_string="2.0.0"><![CDATA[Gönderici başlığı]]></phrase>
+  <phrase title="gurbetseli_sms_api_masgsm_sprefix" version_id="2000070" version_string="2.0.0"><![CDATA[Koddan önce eklenecek metin]]></phrase>
+  <phrase title="gurbetseli_sms_api_hizlisms" version_id="2000070" version_string="2.0.0"><![CDATA[HızlıSMS]]></phrase>
+  <phrase title="gurbetseli_sms_api_hizlisms_cname" version_id="2000070" version_string="2.0.0"><![CDATA[Müşteri adı]]></phrase>
+  <phrase title="gurbetseli_sms_api_hizlisms_cpass" version_id="2000070" version_string="2.0.0"><![CDATA[Parola]]></phrase>
+  <phrase title="gurbetseli_sms_api_hizlisms_sname" version_id="2000070" version_string="2.0.0"><![CDATA[Gönderici adı]]></phrase>
+  <phrase title="gurbetseli_sms_api_hizlisms_sprefix" version_id="2000070" version_string="2.0.0"><![CDATA[Koddan önce eklenecek metin]]></phrase>
+  <phrase title="gurbetseli_sms_api_mutlucell" version_id="2000070" version_string="2.0.0"><![CDATA[Mutlucell]]></phrase>
+  <phrase title="gurbetseli_sms_api_mutlucell_cname" version_id="2000070" version_string="2.0.0"><![CDATA[Müşteri adı]]></phrase>
+  <phrase title="gurbetseli_sms_api_mutlucell_cpass" version_id="2000070" version_string="2.0.0"><![CDATA[Parola]]></phrase>
+  <phrase title="gurbetseli_sms_api_mutlucell_sname" version_id="2000070" version_string="2.0.0"><![CDATA[Gönderici adı]]></phrase>
+  <phrase title="gurbetseli_sms_api_mutlucell_sprefix" version_id="2000070" version_string="2.0.0"><![CDATA[Koddan önce eklenecek metin]]></phrase>
+  <phrase title="gurbetseli_sms_api_netgsm" version_id="2000070" version_string="2.0.0"><![CDATA[NetGSM]]></phrase>
+  <phrase title="gurbetseli_sms_api_netgsm_cname" version_id="2000070" version_string="2.0.0"><![CDATA[Müşteri adı]]></phrase>
+  <phrase title="gurbetseli_sms_api_netgsm_cpass" version_id="2000070" version_string="2.0.0"><![CDATA[Parola]]></phrase>
+  <phrase title="gurbetseli_sms_api_netgsm_sname" version_id="2000070" version_string="2.0.0"><![CDATA[Gönderici adı]]></phrase>
+  <phrase title="gurbetseli_sms_api_netgsm_sprefix" version_id="2000070" version_string="2.0.0"><![CDATA[Koddan önce eklenecek metin]]></phrase>
+  <phrase title="gurbetseli_sms_api_vatansms" version_id="2000070" version_string="2.0.0"><![CDATA[VatanSMS]]></phrase>
+  <phrase title="gurbetseli_sms_api_vatansms_cname" version_id="2000070" version_string="2.0.0"><![CDATA[Müşteri adı]]></phrase>
+  <phrase title="gurbetseli_sms_api_vatansms_cnumber" version_id="2000070" version_string="2.0.0"><![CDATA[Müşteri numarası]]></phrase>
+  <phrase title="gurbetseli_sms_api_vatansms_cpass" version_id="2000070" version_string="2.0.0"><![CDATA[Parola]]></phrase>
+  <phrase title="gurbetseli_sms_api_vatansms_sname" version_id="2000070" version_string="2.0.0"><![CDATA[Gönderici adı]]></phrase>
+  <phrase title="gurbetseli_sms_api_vatansms_sprefix" version_id="2000070" version_string="2.0.0"><![CDATA[Koddan önce eklenecek metin]]></phrase>
+  <phrase title="gurbetseli_sms_check_code" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[Doğrulama kodunuzu girin]]></phrase>
+  <phrase title="gurbetseli_sms_check_code_explain" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[Telefonunuza gönderdiğimiz doğrulama kodunu girin. <br /> Kod, ayarlanan SMS aralığı boyunca (en az 10 dakika) geçerlidir ve en fazla 5 deneme hakkınız vardır. <br /> Yeni kod isteyebileceğiniz sayfa: <a href="{link}">SMS doğrulama</a>.]]></phrase>
+  <phrase title="gurbetseli_sms_index_phone_number" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[Cep telefonu numaranızı girin]]></phrase>
+  <phrase title="gurbetseli_sms_index_phone_number_explain" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[10 haneli cep telefonu numaranızı girin; örnek: 5551234567. <br /> Doğrulama kodunuz varsa <a href="{link}">buraya tıklayın</a>.]]></phrase>
+  <phrase title="gurbetseli_sms_index_title" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[SMS ile telefon doğrulama]]></phrase>
+  <phrase title="gurbetseli_sms_phone_invalid" version_id="2000071" version_string="2.0.1"><![CDATA[Lütfen 5 ile başlayan 10 haneli bir Türkiye cep telefonu numarası girin.]]></phrase>
+  <phrase title="gurbetseli_sms_api_not_configured" version_id="2000071" version_string="2.0.1"><![CDATA[SMS gönderim servisi yapılandırılmamış. Lütfen site yönetimiyle iletişime geçin.]]></phrase>
+  <phrase title="gurbetseli_sms_code_expired" version_id="2000071" version_string="2.0.1"><![CDATA[Doğrulama kodunun süresi dolmuş veya yanlış deneme sınırına ulaşılmış. Yeni kod isteyin.]]></phrase>
+  <phrase title="gurbetseli_sms_send_failed" version_id="2000071" version_string="2.0.1"><![CDATA[SMS sağlayıcısı gönderimi onaylamadı. Tekrar denemeden önce SMS gönderim aralığının dolmasını bekleyin veya yöneticiye bildirin.]]></phrase>
+  <phrase title="gurbetseli_sms_limit_conversation_warn" version_id="2000034" version_string="2.0.0 Beta 4"><![CDATA[Kişisel konuşmalara yanıt verebilmek için <a href="{link}">telefon numaranızı doğrulayın</a>.]]></phrase>
+  <phrase title="gurbetseli_sms_limit_replythread_warn" version_id="2000034" version_string="2.0.0 Beta 4"><![CDATA[Konulara yanıt yazabilmek için <a href="{link}">telefon numaranızı doğrulayın</a>.]]></phrase>
+  <phrase title="gurbetseli_sms_need_verification" version_id="2000032" version_string="2.0.0 Beta 2"><![CDATA[Bu işlemi yapabilmek için <a href="{link}">telefon numaranızı doğrulamanız gerekir</a>.]]></phrase>
+  <phrase title="gurbetseli_sms_permission_options" version_id="2000070" version_string="2.0.0"><![CDATA[İzin ayarları]]></phrase>
+  <phrase title="gurbetseli_sms_sidebar_title" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[SMS ile telefon doğrulama]]></phrase>
+</phrases>

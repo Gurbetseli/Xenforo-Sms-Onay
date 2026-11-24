@@ -1,0 +1,23 @@
+{
+  "src/addons/Gurbetseli/SMS/addon.json": "4aa9eaf4d4a6d9328331a2c67a83c3c3ad78b0582a478567066f5c79a3ada011",
+  "src/addons/Gurbetseli/SMS/icon.jpg": "b39c2b1b6d5423c02f8de2c91c3b684d781249fe929b04b71e371b6b8d0dc428",
+  "src/addons/Gurbetseli/SMS/MacroRender.php": "a9bf39f17aca514730b50265b27a6b9af691bf76f12f2112a670fc0b7cfb6faf",
+  "src/addons/Gurbetseli/SMS/Service/API/HizliSMS.php": "723861256981044d3a6a19426004a74876e0961438564c09aa89daafe2f5bcd0",
+  "src/addons/Gurbetseli/SMS/Service/API/Mutlucell.php": "1167fd9e5b2754fa0cbb26a3e36cd9fd74ac350c0c6b7e585554603fe3eeacf5",
+  "src/addons/Gurbetseli/SMS/Service/API/NetGSM.php": "c82e4589a4933499b6d7b87d5c10604dbaf7baf7930967ac72beb49d2b7197df",
+  "src/addons/Gurbetseli/SMS/Service/API/VatanSMS.php": "17aea30d6823f718aad98c272b22e2c374edd18afb315eca5fcc595180dc7064",
+  "src/addons/Gurbetseli/SMS/Service/Verifier.php": "fcfc4c192915bdb9fe66c4907d9675dc6875705dac2d3ed08a520fdedb826263",
+  "src/addons/Gurbetseli/SMS/Setup.php": "223d86bc28dbbdd950b7f74b775678ba63209a964964fdf00c8b7d8d81d6b6d4",
+  "src/addons/Gurbetseli/SMS/XF/Pub/Controller/Account.php": "53be18d9beadf05ff5351b9d58fcca67d71a93367a1f70f3f4bb130dcb08998f",
+  "src/addons/Gurbetseli/SMS/XF/Pub/Controller/Conversation.php": "46725329cc75f1d3b77d3c002a869b68707b9105c4a664a0ae9898ef807d06b3",
+  "src/addons/Gurbetseli/SMS/XF/Pub/Controller/Forum.php": "6b2e5f1f24f5e4ae1a80b8ba2b6ef97cd7188363da4caa80ee6215cf652f1d84",
+  "src/addons/Gurbetseli/SMS/XF/Pub/Controller/Thread.php": "dcaa39ed438747f4c5fe3a3dde55a354a404100801ce4da82ee34168f78ae28d",
+  "src/addons/Gurbetseli/SMS/_data/class_extensions.xml": "1ee24ba4b223ca998b267cf3141778633f612c974cac6f8139dbc7d12c5afb5c",
+  "src/addons/Gurbetseli/SMS/_data/code_event_listeners.xml": "9a84c5541ce4ba37e4eec057b28b46134856ba89df92de201a189a92893d3384",
+  "src/addons/Gurbetseli/SMS/_data/options.xml": "180dbd45e8c926cb5d6c8f099057cb5285f4cde1398d85d76abaeff626022b6a",
+  "src/addons/Gurbetseli/SMS/_data/option_groups.xml": "e8ba46e615d3bec01b2be524b7e2b9375cc69c4fdf0d8ec767fd6bca730e6ac2",
+  "src/addons/Gurbetseli/SMS/_data/phrases.xml": "a709a65fd0fb53bc896d2d83cf9ad42601dbdf12d1522bba0ddd8efa0270c129",
+  "src/addons/Gurbetseli/SMS/_data/templates.xml": "7f128cf94e88339c2bab5ced058d3fdb7d5673ad641d552e945168ad9e2b5d7f",
+  "src/addons/Gurbetseli/SMS/_data/template_modifications.xml": "f1faeb9fb60ba6d199077e870a809f0374c0d297b5484bd328a01b9c3c6a81f0",
+  "src/addons/Gurbetseli/SMS/Service/API/MasGSM.php": "7d6a45e1bdd94ced91d5a5b82d06da7e496236f63ae0a33acbc02ebd7780a241"
+}

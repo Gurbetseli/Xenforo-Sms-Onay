@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<templates>
+  <template type="public" title="gurbetseli_sms_alreadyverified" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[<xf:title>{{ phrase('gurbetseli_sms_index_title') }}
+</xf:title>
+
+<xf:wrap template="account_wrapper"/>
+<div class="block">
+    <div class="block-container">
+        <div class="block-body">
+            <div class="block-row">{{
+                phrase('gurbetseli_sms_already_verified') }}
+            </div>
+        </div>
+    </div>
+</div>]]></template>
+  <template type="admin" title="gurbetseli_sms_api_chooser" version_id="2000070" version_string="2.0.0"><![CDATA[<xf:radiorow
+	label="{$option.title}"
+	name="{$inputName}" value="{$option.option_value}"
+	hint="{$hintHtml}"
+	explain="{$explainHtml}"
+	html="{$listedHtml}">
+
+	<xf:option name="{$inputName}[vatansms]" selected="$option.option_value.vatansmscnumber" data-hide="true"
+    	label="{{ phrase('gurbetseli_sms_api_vatansms') }}">
+
+    	<xf:dependent>
+			<div>{{ phrase('gurbetseli_sms_api_vatansms_cnumber') }}</div>
+			<xf:textbox name="{$inputName}[vatansmscnumber]" value="{$option.option_value.vatansmscnumber}" />
+    	</xf:dependent>
+	
+		<xf:dependent>
+			<div>{{ phrase('gurbetseli_sms_api_vatansms_cname') }}</div>
+			<xf:textbox name="{$inputName}[vatansmscname]" value="{$option.option_value.vatansmscname}" />
+		</xf:dependent>
+    
+		<xf:dependent>
+			<div>{{ phrase('gurbetseli_sms_api_vatansms_cpass') }}</div>
+			<xf:textbox name="{$inputName}[vatansmscpass]" value="{$option.option_value.vatansmscpass}" />
+		</xf:dependent>
+
+		<xf:dependent>
+			<div>{{ phrase('gurbetseli_sms_api_vatansms_sname') }}</div>
+			<xf:textbox name="{$inputName}[vatansmssname]" value="{$option.option_value.vatansmssname}" />
+		</xf:dependent>
+
+		<xf:dependent>
+			<div>{{ phrase('gurbetseli_sms_api_vatansms_sprefix') }}</div>
+			<xf:textbox name="{$inputName}[vatansmssprefix]" value="{$option.option_value.vatansmssprefix}" />
+		</xf:dependent>
+
+	</xf:option>
+
+	<xf:option name="{$inputName}[netgsm]" selected="$option.option_value.netgsmcname" data-hide="true"
+		label="{{ phrase('gurbetseli_sms_api_netgsm') }}">
+
+		<xf:dependent>
+			<div>{{ phrase('gurbetseli_sms_api_netgsm_cname') }}</div>
+			<xf:textbox name="{$inputName}[netgsmcname]" value="{$option.option_value.netgsmcname}" />
+		</xf:dependent>
+
+		<xf:dependent>
+			<div>{{ phrase('gurbetseli_sms_api_netgsm_cpass') }}</div>
+			<xf:textbox name="{$inputName}[netgsmcpass]" value="{$option.option_value.netgsmcpass}" />
+		</xf:dependent>
+
+		<xf:dependent>
+			<div>{{ phrase('gurbetseli_sms_api_netgsm_sname') }}</div>
+			<xf:textbox name="{$inputName}[netgsmsname]" value="{$option.option_value.netgsmsname}" />
+		</xf:dependent>
+
+		<xf:dependent>
+			<div>{{ phrase('gurbetseli_sms_api_netgsm_sprefix') }}</div>
+			<xf:textbox name="{$inputName}[netgsmsprefix]" value="{$option.option_value.netgsmsprefix}" />
+		</xf:dependent>
+
+	</xf:option>
+
+  <xf:option name="{$inputName}[hizlisms]" selected="$option.option_value.hizlismscname" data-hide="true"
+    label="{{ phrase('gurbetseli_sms_api_hizlisms') }}">
+
+    <xf:dependent>
+      <div>{{ phrase('gurbetseli_sms_api_hizlisms_cname') }}</div>
+      <xf:textbox name="{$inputName}[hizlismscname]" value="{$option.option_value.hizlismscname}" />
+    </xf:dependent>
+    <xf:dependent>
+      <div>{{ phrase('gurbetseli_sms_api_hizlisms_cpass') }}</div>
+      <xf:textbox name="{$inputName}[hizlismscpass]" value="{$option.option_value.hizlismscpass}" />
+    </xf:dependent>
+    <xf:dependent>
+      <div>{{ phrase('gurbetseli_sms_api_hizlisms_sname') }}</div>
+      <xf:textbox name="{$inputName}[hizlismssname]" value="{$option.option_value.hizlismssname}" />
+    </xf:dependent>
+    <xf:dependent>
+      <div>{{ phrase('gurbetseli_sms_api_hizlisms_sprefix') }}</div>
+      <xf:textbox name="{$inputName}[hizlismssprefix]" value="{$option.option_value.hizlismssprefix}" />
+    </xf:dependent>
+
+  </xf:option>
+
+  <xf:option name="{$inputName}[mutlucell]" selected="$option.option_value.mutlucellcname" data-hide="true"
+    label="{{ phrase('gurbetseli_sms_api_mutlucell') }}">
+
+    <xf:dependent>
+      <div>{{ phrase('gurbetseli_sms_api_mutlucell_cname') }}</div>
+      <xf:textbox name="{$inputName}[mutlucellcname]" value="{$option.option_value.mutlucellcname}" />
+    </xf:dependent>
+    <xf:dependent>
+      <div>{{ phrase('gurbetseli_sms_api_mutlucell_cpass') }}</div>
+      <xf:textbox name="{$inputName}[mutlucellcpass]" value="{$option.option_value.mutlucellcpass}" />
+    </xf:dependent>
+    <xf:dependent>
+      <div>{{ phrase('gurbetseli_sms_api_mutlucell_sname') }}</div>
+      <xf:textbox name="{$inputName}[mutlucellsname]" value="{$option.option_value.mutlucellsname}" />
+    </xf:dependent>
+    <xf:dependent>
+      <div>{{ phrase('gurbetseli_sms_api_mutlucell_sprefix') }}</div>
+      <xf:textbox name="{$inputName}[mutlucellsprefix]" value="{$option.option_value.mutlucellsprefix}" />
+    </xf:dependent>
+
+  </xf:option>
+
+  <xf:option name="{$inputName}[masgsm]" selected="$option.option_value.masgsmcname" data-hide="true"
+    label="{{ phrase('gurbetseli_sms_api_masgsm') }}">
+    <xf:dependent>
+      <div>{{ phrase('gurbetseli_sms_api_masgsm_cname') }}</div>
+      <xf:textbox name="{$inputName}[masgsmcname]" value="{$option.option_value.masgsmcname}" />
+    </xf:dependent>
+    <xf:dependent>
+      <div>{{ phrase('gurbetseli_sms_api_masgsm_cpass') }}</div>
+      <xf:textbox name="{$inputName}[masgsmcpass]" value="{$option.option_value.masgsmcpass}" />
+    </xf:dependent>
+    <xf:dependent>
+      <div>{{ phrase('gurbetseli_sms_api_masgsm_sname') }}</div>
+      <xf:textbox name="{$inputName}[masgsmsname]" value="{$option.option_value.masgsmsname}" />
+    </xf:dependent>
+    <xf:dependent>
+      <div>{{ phrase('gurbetseli_sms_api_masgsm_sprefix') }}</div>
+      <xf:textbox name="{$inputName}[masgsmsprefix]" value="{$option.option_value.masgsmsprefix}" />
+    </xf:dependent>
+  </xf:option>
+
+</xf:radiorow>]]></template>
+  <template type="public" title="gurbetseli_sms_checkcode" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[<xf:title>{{ phrase('gurbetseli_sms_index_title') }}
+</xf:title>
+
+<xf:wrap template="account_wrapper"/>
+
+<xf:form action="{{ link('account/sms/verifycode') }}" class="block" ajax="true">
+    <div class="block-container">
+        <div class="block-body">
+            <xf:macro name="gurbetseli_sms_index_form_fields" arg-context="account"/>
+            <xf:submitrow label="Uygula" icon="apply"/>
+        </div>
+    </div>
+</xf:form>
+
+
+<xf:macro name="gurbetseli_sms_index_form_fields" arg-context="!">
+    <xf:textboxrow name="gurbetseli_sms[code]"
+				   type="number"
+				   step="1"
+				   min="10000000"
+				   max="99999999"
+                   label="{{ phrase('gurbetseli_sms_check_code') }}"
+                   explain="{{ phrase('gurbetseli_sms_check_code_explain', {'link': link('account/sms/sendcode'), 'interval': $xf.options.gurbetseli_sms_smsinterval}) }}"/>
+</xf:macro>]]></template>
+  <template type="admin" title="gurbetseli_sms_option_macros" version_id="2000035" version_string="2.0.0 Beta 5"><![CDATA[<xf:macro name="option_form_block" arg-group="" arg-options="!" arg-containerBeforeHtml="">
+    <xf:if is="$options is not empty">
+        <xf:form action="{{ link('options/update') }}" ajax="true" class="block">
+            {$containerBeforeHtml|raw}
+            <div class="block-container">
+                <h2 class="block-tabHeader tabs" data-xf-init="tabs" role="tablist">
+                    <a class="tabs-tab is-active" role="tab" tabindex="0" aria-controls="generalOptions">Genel ayarlar</a>
+                    <a class="tabs-tab" role="tab" tabindex="0" aria-controls="permissionOptions">{{ phrase('gurbetseli_sms_permission_options') }}</a>
+                    <a class="tabs-tab" role="tab" tabindex="0" aria-controls="apiChooserOptions">{{ phrase('gurbetseli_sms_api_chooser_options') }}</a>
+                </h2>
+                <ul class="tabPanes">
+                    <li class="is-active" role="tabpanel" id="generalOptions">
+                        <div class="block-body">
+                            <xf:foreach loop="$options" value="$option">
+                            <xf:if is="$option.Relations.gurbetseli_sms.display_order < 200">
+                                <xf:macro template="option_macros" name="option_row" arg-group="{$group}" arg-option="{$option}" />
+                            </xf:if>
+                            </xf:foreach>
+                        </div>
+                    </li>
+                    <li role="tabpanel" id="permissionOptions">
+                        <div class="block-body">
+                            <xf:foreach loop="$options" value="$option">
+                            <xf:if is="$option.Relations.gurbetseli_sms.display_order >= 200 AND $option.Relations.gurbetseli_sms.display_order < 1000">
+                                <xf:macro template="option_macros" name="option_row" arg-group="{$group}" arg-option="{$option}" />
+                            </xf:if>
+                            </xf:foreach>
+                        </div>
+                    </li>
+                    <li role="tabpanel" id="apiChooserOptions">
+                        <div class="block-body">
+                            <xf:foreach loop="$options" value="$option">
+                            <xf:if is="$option.Relations.gurbetseli_sms.display_order == 1000">
+                                <xf:macro template="option_macros" name="option_row" arg-group="{$group}" arg-option="{$option}" />
+                            </xf:if>
+                            </xf:foreach>
+                        </div>
+                    </li>
+                </ul>
+                <xf:submitrow sticky="true" icon="save" label="Kaydet" />
+            </div>
+        </xf:form>
+    </xf:if>
+</xf:macro>]]></template>
+  <template type="public" title="gurbetseli_sms_sendcode" version_id="2000032" version_string="2.0.0 Beta 2"><![CDATA[<xf:title>{{ phrase('gurbetseli_sms_index_title') }}
+</xf:title>
+
+<xf:wrap template="account_wrapper"/>
+
+<xf:form action="{{ link('account/sms/requestcode') }}" class="block" ajax="true">
+    <div class="block-container">
+        <div class="block-body">
+            <xf:macro name="gurbetseli_sms_index_form_fields" arg-context="account"/>
+            <xf:submitrow label="Uygula" icon="apply"/>
+        </div>
+    </div>
+</xf:form>
+
+<xf:macro name="gurbetseli_sms_index_form_fields" arg-context="!">
+    <xf:textboxrow name="gurbetseli_sms[phone_number]"
+          type="number"
+          step="1"
+		  id="152"
+          min="5000000000"
+          max="5999999999"
+          label="{{ phrase('gurbetseli_sms_index_phone_number') }}"
+          explain="{{ phrase('gurbetseli_sms_index_phone_number_explain', {'link': link('account/sms/checkcode')}) }}"/>
+</xf:macro>]]></template>
+</templates>

@@ -1,0 +1,15 @@
+# XenForo installation data and credentials
+/config.php
+/internal_data/
+/data/
+*.sql
+*.sql.gz
+*.log
+*.bak
+*.zip
+
+# Local editor and operating system files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

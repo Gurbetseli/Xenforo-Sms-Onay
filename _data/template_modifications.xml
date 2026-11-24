@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<template_modifications>
+  <modification type="public" template="PAGE_CONTAINER" modification_key="gurbetseli_sms_copyright" execution_order="10" enabled="1" action="str_replace">
+    <find><![CDATA[{{ phrase('extra_copyright') }}]]></find>
+    <replace><![CDATA[<br />
+<a href="https://gurbetseli.net" class="u-concealed" dir="ltr" target="_blank" rel="noopener noreferrer">SMS doğrulama © Gurbetseli.NeT</a>
+
+$0]]></replace>
+  </modification>
+  <modification type="public" template="account_visitor_menu" modification_key="gurbetseli_sms_visitormenu" description="Hesap menüsüne bağlantı ekle" execution_order="10" enabled="1" action="str_replace">
+    <find><![CDATA[<!--[XF:account_links:bottom]-->]]></find>
+    <replace><![CDATA[<li><a href="{{ link('account/sms') }}" class="menu-linkRow">{{ phrase('gurbetseli_sms_sidebar_title') }}</a></li>
+$0]]></replace>
+  </modification>
+  <modification type="public" template="account_wrapper" modification_key="gurbetseli_sms_sidebar" description="SMS doğrulama bağlantısını hesap menüsüne ekle" execution_order="10" enabled="1" action="str_replace">
+    <find><![CDATA[<a class="blockLink {{ $pageSelected == 'security' ? 'is-selected' : '' }}" href="{{ link('account/security') }}">
+					{{ phrase('password_and_security') }}
+				</a>]]></find>
+    <replace><![CDATA[$0 <a class="blockLink {{ $pageSelected == 'sms' ? 'is-selected' : '' }}" href="{{ link('account/sms') }}">
+					{{ phrase('gurbetseli_sms_sidebar_title') }}
+				</a>]]></replace>
+  </modification>
+  <modification type="public" template="conversation_view" modification_key="gurbetseli_sms_limitconversation" description="Konuşma sayfasında hızlı yanıtı sınırla" execution_order="10" enabled="1" action="str_replace">
+    <find><![CDATA[<xf:if is="$conversation.canReply()">]]></find>
+    <replace><![CDATA[<xf:if is="$conversation.canReply() AND $smsLimitConversation">
+	<div class="block-container">
+		<div class="block-body">
+			<div class="message message--quickReply block-topRadiusContent block-bottomRadiusContent{{ $simple ? ' message--simple' : '' }}">
+				<div class="message-inner">
+					<div class="message-cell message-cell--user">
+						<div class="message-user {{ $sticky.user_info ? 'is-sticky' : '' }}">
+							<div class="message-avatar">
+								<div class="message-avatar-wrapper">
+									<xf:set var="$user" value="{{ $xf.visitor.user_id ? $xf.visitor : null }}" />
+									<xf:avatar user="$user" size="{{ $simple ? 's' : 'm' }}" defaultname="" />
+								</div>
+							</div>
+							<span class="message-userArrow"></span>
+						</div>
+					</div>
+					<div class="message-cell message-cell--main">
+						{{ phrase('gurbetseli_sms_limit_conversation_warn', {'link': link('account/sms')}) }}
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<xf:elseif is="$conversation.canReply() AND !$smsLimitConversation" />]]></replace>
+  </modification>
+  <modification type="public" template="thread_view" modification_key="gurbetseli_sms_limitquickreply" description="Konu sayfasında hızlı yanıtı sınırla" execution_order="10" enabled="1" action="str_replace">
+    <find><![CDATA[<xf:if is="$thread.canReply()">]]></find>
+    <replace><![CDATA[<xf:if is="$thread.canReply() AND $smsLimitThreadReply">
+	<div class="block-container">
+		<div class="block-body">
+			<div class="message message--quickReply block-topRadiusContent block-bottomRadiusContent{{ $simple ? ' message--simple' : '' }}">
+				<div class="message-inner">
+					<div class="message-cell message-cell--user">
+						<div class="message-user {{ $sticky.user_info ? 'is-sticky' : '' }}">
+							<div class="message-avatar">
+								<div class="message-avatar-wrapper">
+									<xf:set var="$user" value="{{ $xf.visitor.user_id ? $xf.visitor : null }}" />
+									<xf:avatar user="$user" size="{{ $simple ? 's' : 'm' }}" defaultname="" />
+								</div>
+							</div>
+							<span class="message-userArrow"></span>
+						</div>
+					</div>
+					<div class="message-cell message-cell--main">
+						{{ phrase('gurbetseli_sms_limit_replythread_warn', {'link': link('account/sms')}) }}
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<xf:elseif is="$thread.canReply() AND !$smsLimitThreadReply" />]]></replace>
+  </modification>
+</template_modifications>
