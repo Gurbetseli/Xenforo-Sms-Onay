@@ -19,13 +19,13 @@ XenForo'nun güncel altyapı gereksinimleri için [resmî sistem gereksinimleri]
 
 1. Önce forum dosyalarını ve veritabanını yedekleyin. Mümkünse kurulumu önce test forumunda deneyin.
 2. GitHub'dan projeyi indirin ve ZIP dosyasını açın.
-3. Paketteki `Gurbetseli/SMS` klasörünü, forumunuzun kök dizinindeki şu konuma yükleyin:
+3. Paketteki `src` klasörünü forumunuzun kök dizinine yükleyin veya içeriğini sunucudaki `src` klasörüyle birleştirin. Eklenti bu konumda bulunmalı:
 
    ```text
    forum-kok-dizini/src/addons/Gurbetseli/SMS/
    ```
 
-   Sonuçta `addon.json` dosyası `src/addons/Gurbetseli/SMS/addon.json` yolunda bulunmalı.
+   Sonuçta `addon.json` dosyası `src/addons/Gurbetseli/SMS/addon.json` yolunda bulunmalı. README ve güvenlik denetimi gibi proje belgelerini sunucuya yüklemeniz gerekmez.
 
 4. XenForo Yönetim Paneli'nde **Eklentiler** sayfasını açın. Listelenen **Gurbetseli SMS Doğrulama** eklentisinin yanındaki **Yükle** seçeneğini kullanın.
 5. Kurulum tamamlanınca **Kurulum › Seçenekler › Gurbetseli SMS doğrulama** sayfasını açın.
@@ -36,7 +36,7 @@ XenForo'nun güncel altyapı gereksinimleri için [resmî sistem gereksinimleri]
 ### Güncelleme
 
 1. Veritabanı ve eklenti dosyalarını yedekleyin.
-2. Yeni sürümdeki `Gurbetseli/SMS` klasörünün içeriğini aynı sunucu konumuna yükleyip eski dosyaların üzerine yazın.
+2. Yeni ZIP içindeki `src/addons/Gurbetseli/SMS` klasörünü aynı sunucu konumuna yükleyip eski eklenti dosyalarının üzerine yazın.
 3. Yönetim Paneli'ndeki **Eklentiler** sayfasından Gurbetseli SMS Doğrulama için **Yükselt** işlemini başlatın ve tamamlayın. 2.0.1 sürümü, yanlış kod denemelerini saklamak için eklenti tablosuna bir alan ekler.
 4. SMS sağlayıcısı bilgilerini ve izin seçeneklerini tekrar kontrol edin.
 
